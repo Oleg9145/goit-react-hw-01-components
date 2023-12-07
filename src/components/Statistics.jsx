@@ -1,10 +1,11 @@
 
-import data from '../data.json'; 
 
-const Statistics = () => {
+
+
+const Statistics = ({ data, title }) => {
   return (
     <section className="statistics">
-      <h2 className="title">Upload stats</h2>
+     {title && <h2 className="title">{title}</h2>}
       <ul className="stat-list">
         {data.map(item => (
           <li key={item.id} className="item">
@@ -16,5 +17,4 @@ const Statistics = () => {
     </section>
   );
 };
-
 export { Statistics};
