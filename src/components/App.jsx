@@ -19,8 +19,8 @@ export const App = () => {
       />
        <Statistics data={data} />
        
-       <FriendList friends={friends} />;
-       <TransactionHistory items={transactions} />;
+       <FriendList friends={friends} />
+       <TransactionHistory items={transactions} />
     </div>
   );
 };

@@ -1,19 +1,19 @@
-
+import css from './styles/friends.module.css';
 const FriendListItem = ({ avatar, name, isOnline }) => {
-    const statusClass = isOnline ? 'online' : 'offline';
+    const statusClass = isOnline ? css.online : css.offline;
   
     return (
-      <li className="item">
-        <span className={`status ${statusClass}`}></span>
+      <li className={css.item}>
+        <span className={`status`}></span>
         <img className="avatar" src={avatar} alt="User avatar" width="48" />
-        <p className="name">{name}</p>
+        <p className={statusClass}>{name}</p>
       </li>
     );
   };
 
   const FriendList = ({ friends }) => {
     return (
-      <ul className="friend-list">
+      <ul className={css.friendList}>
         {friends.map(friend => (
           <FriendListItem
             key={friend.id} 
