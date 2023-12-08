@@ -1,15 +1,15 @@
 .statistics {
-  background-color: white; /* Adjust to match the exact color from the image */
-  border-radius: 8px; /* Adjust if necessary */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adjust to match the shadow in the image */
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  max-width: 300px; /* Adjust based on the image's width */
+  max-width: 300px;
   margin: auto;
 }
 
 .statistics .title {
-  font-size: 20px; /* Adjust based on the image */
-  color: #4a4a4a; /* Adjust to match the color */
+  font-size: 20px;
+  color: #4a4a4a;
   margin-bottom: 20px;
 }
 
@@ -18,7 +18,7 @@
   padding: 0;
   margin: 0;
   display: grid;
-  gap: 10px; /* Space between items */
+  gap: 10px;
 }
 
 .statistics .item {
@@ -26,17 +26,17 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  border-radius: 5px; /* Adjust to match the image */
-  background-color: #f4f4f4; /* Adjust to match each item's color in the image */
+  border-radius: 5px;
+  background-color: #f4f4f4;
 }
 
 .statistics .label {
-  font-size: 14px; /* Adjust based on the image */
-  color: #6c6c6c; /* Adjust to match the color */
+  font-size: 14px;
+  color: #6c6c6c;
 }
 
 .statistics .percentage {
-  font-size: 18px; /* Adjust based on the image */
-  color: #4a4a4a; /* Adjust to match the color */
-  font-weight: bold; /* If the percentage is bold in the image */
+  font-size: 18px;
+  color: #4a4a4a;
+  font-weight: bold;
 }
