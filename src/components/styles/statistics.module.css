@@ -1,0 +1,42 @@
+.statistics {
+  background-color: white; /* Adjust to match the exact color from the image */
+  border-radius: 8px; /* Adjust if necessary */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adjust to match the shadow in the image */
+  padding: 20px;
+  max-width: 300px; /* Adjust based on the image's width */
+  margin: auto;
+}
+
+.statistics .title {
+  font-size: 20px; /* Adjust based on the image */
+  color: #4a4a4a; /* Adjust to match the color */
+  margin-bottom: 20px;
+}
+
+.statistics .statslist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px; /* Space between items */
+}
+
+.statistics .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px; /* Adjust to match the image */
+  background-color: #f4f4f4; /* Adjust to match each item's color in the image */
+}
+
+.statistics .label {
+  font-size: 14px; /* Adjust based on the image */
+  color: #6c6c6c; /* Adjust to match the color */
+}
+
+.statistics .percentage {
+  font-size: 18px; /* Adjust based on the image */
+  color: #4a4a4a; /* Adjust to match the color */
+  font-weight: bold; /* If the percentage is bold in the image */
+}

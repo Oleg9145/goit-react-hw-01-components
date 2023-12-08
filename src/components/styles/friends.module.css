@@ -16,8 +16,9 @@
 }
 .friendList {
   gap: 5px;
+  width: 320px;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
+  margin: auto;
+  padding: 0;
 }
