@@ -1,7 +1,9 @@
 .online {
+  width: 60px;
   background-color: greenyellow;
 }
 .offline {
+  width: 60px;
   background-color: red;
 }
 .item {
